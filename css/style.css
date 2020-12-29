@@ -1,0 +1,515 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #eee;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*=======================>  commoun css <================================== */
+ h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFC200;
+    font-family: 'Grand Hotel', cursive;
+}
+ p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.btn{
+    padding: 6px 35px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12px;
+    background-color: #FFC200 !important;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+ ul{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+
+/*================> header-wrapper <==========================*/
+.header-wrapper{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.navbar-nav .nav-item{
+    padding: 0 17px;
+}
+.navbar-nav .nav-item:last-child{
+    padding: 0 0px !important;
+}
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff !important;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FFC200 !important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #FFC200 !important;
+}
+
+
+
+/*============================> banner-wrapper start <============================= */
+
+
+.banner-wrapper{
+    width: 100%;
+    height: 650px;
+    vertical-align: middle;
+    background-image: url(../img/356299545.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+.banner-content{
+    width: 100%;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    top: 200%;
+    color: #fff;
+}
+
+
+
+/*============================> bestseller-wrapper start <============================= */
+
+
+.bestseller-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+/* bestseller-heading-area */
+
+.bestseller-heading-area p{
+    color: #333333 !important;
+}
+
+
+/* bestseller-content-area */
+
+.bestseller-content-area img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.bestseller-content-area h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Grand Hotel', cursive;
+}
+.bestseller-content p{
+    font-size: 14px;
+    color: #333333;
+}
+
+
+
+/*==========================> Orientaltaste-wrapper <==============================*/
+
+
+.Orientaltaste-wrapper{
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
+    background-image: url(../img/bac1.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Orientaltaste-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    padding: 122px;
+}
+
+/* Orientaltaste-content */
+.Orientaltaste-content{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*==============================> statistics-wrapper <===================================*/
+.statistics-wrapper{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    vertical-align: middle;
+    background-image: url(../img/bac2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter-item  {
+    width: 100%;
+    height: auto;
+    color: #FFC200 !important;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.counter-area{
+    width: 165px;
+    height: 165px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.counter-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.counter-item h2 {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/*============================> chickengrill-wrapper start <============================= */
+
+
+.chickengrill-wrapper{
+    width: 100%;
+    height: 600px;
+    vertical-align: middle;
+    background-image: url(../img/ba3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Orientaltaste-img img, .chickengrill-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    padding: 80px;
+}
+
+
+/*============================> lenorafields-wrapper start <============================= */
+
+.lenorafields-wrapper{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    vertical-align: middle;
+    background-image: url(../img/bac3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lenorafields-wrapper::after{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background:#ffc20091;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+.lenorafields-contant{
+    position: absolute;
+    color: #333333;
+    z-index: 1;
+    vertical-align: middle;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lenorafields-contant h2{
+    font-size: 18px;
+}
+
+.lenorafields-contant h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Grand Hotel', cursive;
+}
+
+/*============================> subscribe-wrapper start <============================= */
+.subscribe-wrapper {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    vertical-align: middle;
+    background-image: url(../img/bac4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe-content{
+    width: 100%;
+    height: auto;
+    color:#333333;
+    margin-top: 80px;
+}
+
+.subscribe-content h1, .subscribe-content p{
+    width: 100%;
+    height: auto;
+    color:#333333;
+
+}
+.form-area{
+    box-shadow: 0 0px 17px 0 rgba(0, 0, 0, 0.19);
+}
+.form-area .searchbar{
+    padding: 13px;
+    border-radius: 5px 0px 0px 5px;
+}
+.form-area .btn{
+    margin-top: 0px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/*============================> footer-wrapper start <============================= */
+.footer-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background-color: #303030;
+}
+.fotter-content-first{
+    padding-right: 100px;
+}
+.fotter-content h2{
+    padding: 15px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fotter-content article{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+}
+.social-icon ul>li{
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    margin: 8px;
+    text-align: center;
+    border-radius: 100%;
+    color: #333333 !important;
+    list-style: none;
+}
+.social-icon ul>li>a{
+    color: #333333 !important;
+}
+.social-icon ul>li:hover{
+    background-color: #FFC200;
+    color: #333333 !important;
+}
+.social-icon ul>li:hover a{
+    color: #fff !important;
+}
+
+.fotter-content ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+}
+.fotter-content ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fotter-content ul>li:hover {
+    border-left: 2px solid #FFC200;
+}
+.fotter-content ul>li:hover a{
+    color: #FFC200;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+
+
+/* 
+
+ ****   Small devices (landscape phones, less than 768px) 
+
+*/
+
+@media (max-width: 991.98px) { 
+    
+    .banner-content {
+        top: 140%;
+    }
+    .Orientaltaste-wrapper {
+        height: 360px;
+    }
+    .Orientaltaste-img img, .chickengrill-img img {
+        padding: 0;
+    }
+    .Orientaltaste-content {
+        top: 68%;
+        left: 66%;
+    }
+    .lenorafields-wrapper, .subscribe-wrapper {
+        height: 500px;
+    }
+    .subscribe-content {
+        margin-top: 0;
+    }
+ }
+
+@media (max-width: 768px) { 
+
+    /* header-wrapper */
+    .banner-wrapper{
+        height: 400px;
+    }
+    .banner-content {
+        top: 70%;
+    }
+
+    /* Orientaltaste-wrapper */
+    .Orientaltaste-wrapper {
+        height: 340px;
+    }
+    .Orientaltaste-img img, .chickengrill-img img {
+        padding: 25px;
+    }
+    .Orientaltaste-content {
+        top: 60%;
+    }
+
+    /* statistics-wrapper */
+    .statistics-wrapper {
+        height: 800px;
+    }
+    .statistics-counter {
+        padding-top: 0 !important;
+    }
+
+    /* chickengrill-wrapper */
+    .chickengrill-wrapper {
+        height: 503px;
+    }
+
+    /* lenorafields-wrapper */
+    .lenorafields-wrapper, .subscribe-wrapper {
+        height: 400px;
+    }
+
+    /* subscribe-wrapper  */
+    .subscribe-content {
+        margin-top: 0;
+        padding-bottom: 10px !important;
+    }
+
+    /* fotter-content-first */
+    .fotter-content-first{
+        padding-right: 0 !important;
+    }
+    
+}
+
+@media (max-width: 575.98px) { 
+    .Orientaltaste-wrapper {
+        height: 800px;
+    }
+    .chickengrill-wrapper {
+        height: 925px;
+    }
+    
+}
+@media (max-width: 414px) { 
+
+    .bestseller-heading-area{
+        padding: 0px !important;
+    }
+    .Orientaltaste-wrapper {
+        height: 700px;
+        text-align: center;
+    }
+    .chickengrill-wrapper {
+        height: 800px;
+        text-align: center;
+    }
+    .lenorafields-wrapper, .subscribe-wrapper {
+        height: 315px;
+    }
+    .subscribe-content {
+        margin-top: 0;
+        padding: 0px !important;
+    }
+    .footer-wrapper {
+        padding: 50px 0;
+    }
+    .social-icon ul > li {
+        margin: 3px;
+        margin-top: 15px;
+    }
+    
+}
